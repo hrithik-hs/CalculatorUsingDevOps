@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('Github Pull') {
             steps {
+                // for cloning
                 git branch: 'main', url: 'https://github.com/hrithik-hs/CalculatorUsingDevOps'
             }
         }
